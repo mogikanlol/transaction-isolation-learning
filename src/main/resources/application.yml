@@ -6,4 +6,4 @@ spring:
     driverClassName: org.postgresql.Driver
     initialization-mode: always
   liquibase:
-    change-log: db/changelog/liquibase-changelog.xml
+    change-log: classpath:db/changelog/liquibase-changelog.xml
